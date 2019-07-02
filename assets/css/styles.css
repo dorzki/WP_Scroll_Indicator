@@ -1,0 +1,25 @@
+.dorzki-scroll-indicator-wrapper {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.dorzki-scroll-indicator-wrapper .scroll-bar {
+	width: 0;
+	height: 5px;
+	background-color: #0073aa;
+}
+
+body.admin-bar .dorzki-scroll-indicator-wrapper {
+	top: 46px;
+}
+
+@media ( min-width: 783px ) {
+
+	body.admin-bar .dorzki-scroll-indicator-wrapper {
+		top: 32px;
+	}
+
+}
