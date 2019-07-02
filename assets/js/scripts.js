@@ -10,8 +10,6 @@
 
 	}
 
-	scrollIndicator();
-
 	$( window ).scroll( scrollIndicator );
 
 })( jQuery );
